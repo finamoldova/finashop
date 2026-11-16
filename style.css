@@ -189,5 +189,20 @@
   }
 }
 
+.contact-details a {
+  font-family: "Playfair Display", serif;
+  font-size: 26px !important;
+  font-weight: 500;
+  font-style: italic;
+  color: #d7c7ad;
+  line-height: 1.4;
+}
+
+@media (max-width: 700px) {
+  .contact-details a {
+    font-size: 20px !important;
+  }
+}
+
 
 
