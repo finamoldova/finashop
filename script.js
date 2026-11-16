@@ -1,0 +1,45 @@
+const translations = {
+  en: {
+    announcement:"A little ritual, naturally.", navProduct:"The inhaler", navStory:"Our story", navRitual:"The ritual", navContact:"Contact", headerCta:"Discover FINA",
+    heroEyebrow:"A MOMENT TO YOURSELF", heroTitle:"Make room<br>for a <em>fresh</em> moment.", heroText:"Meet FINA: a reusable wooden aroma inhaler, thoughtfully made for small pauses in your everyday.", heroButton:"Explore the inhaler", heroSecondary:"Get to know us", heroNote:"Simple by nature. Made to go with you.", artCaption:"THE EVERYDAY ESSENTIAL",
+    productKicker:"THE FINA INHALER", productTitle:"A simple object.<br><em>A personal ritual.</em>", productText:"A compact, reusable aroma inhaler with a wooden exterior. Add your preferred aroma to its replaceable inner element and take a familiar scent with you — at home, at work or on the move.", productLink:"Ask about the collection",
+    feature1Title:"A natural touch", feature1Text:"A warm wooden feel, with a clean and considered look.", feature2Title:"Made to reuse", feature2Text:"Designed to be refilled and enjoyed again and again.", feature3Title:"Ready to go", feature3Text:"A compact companion that fits easily into your day.", productDisclaimer:"Product details, materials and available finishes may vary by model. Contact us for current information.",
+    storyKicker:"A THOUGHTFUL APPROACH", storyTitle:"Less noise.<br><em>More presence.</em>", storyText:"We believe everyday objects can invite us to slow down for a moment. FINA is built around a simple idea: make personal rituals feel effortless, with considered design and an object you can keep close.",
+    ritualKicker:"A MOMENT, YOUR WAY", ritualTitle:"A little pause<br>fits <em>anywhere.</em>", ritualText:"Keep your favourite aroma close and make a small moment in the day your own.", ritual1Title:"Choose", ritual1Text:"Choose an aroma you enjoy.", ritual2Title:"Prepare", ritual2Text:"Follow the product instructions to prepare your inhaler.", ritual3Title:"Take it with you", ritual3Text:"Keep it nearby whenever you want a familiar scent.", safetyNote:"Use only as directed. Follow the instructions supplied with your product and the guidance for the aroma material you choose.",
+    contactEyebrow:"LET'S CONNECT", contactTitle:"Your next little<br><em>ritual starts here.</em>", contactText:"Curious about FINA or interested in an inhaler? Get in touch and we'll be happy to help.", contactHint:"Add your preferred email and social links before publishing.", footerText:"A little ritual, naturally.", backTop:"Back to top ↑"
+  },
+  ro: {
+    announcement:"Un mic ritual, în mod natural.", navProduct:"Inhalatorul", navStory:"Povestea noastră", navRitual:"Ritualul", navContact:"Contact", headerCta:"Descoperă FINA",
+    heroEyebrow:"UN MOMENT PENTRU TINE", heroTitle:"Fă loc unui<br>moment <em>proaspăt.</em>", heroText:"Descoperă FINA: un inhalator aromatic reutilizabil din lemn, creat cu grijă pentru mici pauze în fiecare zi.", heroButton:"Descoperă inhalatorul", heroSecondary:"Cunoaște-ne", heroNote:"Simplu prin natură. Mereu aproape de tine.", artCaption:"UN OBIECT PENTRU FIECARE ZI",
+    productKicker:"INHALATORUL FINA", productTitle:"Un obiect simplu.<br><em>Un ritual personal.</em>", productText:"Un inhalator aromatic compact și reutilizabil, cu exterior din lemn. Adaugă aroma preferată în elementul interior înlocuibil și ia cu tine un miros familiar — acasă, la serviciu sau în deplasare.", productLink:"Întreabă despre colecție",
+    feature1Title:"Atingere naturală", feature1Text:"Senzația caldă a lemnului, într-un design simplu și atent.", feature2Title:"Creat pentru reutilizare", feature2Text:"Conceput pentru a fi reumplut și folosit din nou.", feature3Title:"Mereu la îndemână", feature3Text:"Un accesoriu compact, ușor de luat cu tine.", productDisclaimer:"Detaliile, materialele și finisajele pot varia în funcție de model. Contactează-ne pentru informații actualizate.",
+    storyKicker:"O ABORDARE ATENTĂ", storyTitle:"Mai puțin zgomot.<br><em>Mai multă prezență.</em>", storyText:"Credem că obiectele de zi cu zi ne pot invita să încetinim pentru o clipă. FINA pornește de la o idee simplă: ritualuri personale fără efort, design atent și un obiect pe care îl poți avea mereu aproape.",
+    ritualKicker:"UN MOMENT, ÎN FELUL TĂU", ritualTitle:"O mică pauză<br>își găsește locul <em>oriunde.</em>", ritualText:"Păstrează aroma preferată aproape și transformă un mic moment al zilei într-unul al tău.", ritual1Title:"Alege", ritual1Text:"Alege o aromă care îți place.", ritual2Title:"Pregătește", ritual2Text:"Urmează instrucțiunile produsului pentru a pregăti inhalatorul.", ritual3Title:"Ia-l cu tine", ritual3Text:"Păstrează-l aproape atunci când îți dorești un miros familiar.", safetyNote:"Folosește produsul conform instrucțiunilor. Respectă indicațiile incluse și recomandările pentru materialul aromatic ales.",
+    contactEyebrow:"SĂ LUĂM LEGĂTURA", contactTitle:"Următorul tău mic<br><em>ritual începe aici.</em>", contactText:"Ești curios despre FINA sau dorești un inhalator? Scrie-ne și te ajutăm cu plăcere.", contactHint:"Adaugă adresa de e-mail și linkurile sociale înainte de publicare.", footerText:"Un mic ritual, în mod natural.", backTop:"Înapoi sus ↑"
+  },
+  ru: {
+    announcement:"Маленький ритуал — естественно.", navProduct:"Ингалятор", navStory:"О бренде", navRitual:"Ритуал", navContact:"Контакты", headerCta:"Открыть FINA",
+    heroEyebrow:"МОМЕНТ ДЛЯ СЕБЯ", heroTitle:"Найди место<br>для <em>свежего</em> момента.", heroText:"Знакомься с FINA — многоразовым деревянным аромаингалятором, созданным для небольших пауз в повседневной жизни.", heroButton:"Посмотреть ингалятор", heroSecondary:"Познакомиться с нами", heroNote:"Естественная простота. Всегда рядом.", artCaption:"НЕЗАМЕНИМЫЙ АКСЕССУАР НА КАЖДЫЙ ДЕНЬ",
+    productKicker:"ИНГАЛЯТОР FINA", productTitle:"Простой предмет.<br><em>Личный ритуал.</em>", productText:"Компактный многоразовый аромаингалятор с деревянным корпусом. Добавь любимый аромат во внутренний сменный элемент и возьми знакомый запах с собой — домой, на работу или в дорогу.", productLink:"Узнать о коллекции",
+    feature1Title:"Природная фактура", feature1Text:"Тёплое ощущение дерева и лаконичный продуманный вид.", feature2Title:"Многоразовое использование", feature2Text:"Создан для повторного наполнения и использования.", feature3Title:"Всегда под рукой", feature3Text:"Компактный аксессуар, который легко взять с собой.", productDisclaimer:"Характеристики, материалы и варианты отделки могут отличаться в зависимости от модели. Уточняйте актуальную информацию у нас.",
+    storyKicker:"ПРОДУМАННЫЙ ПОДХОД", storyTitle:"Меньше шума.<br><em>Больше присутствия.</em>", storyText:"Мы верим, что повседневные предметы могут напоминать нам о необходимости хотя бы на мгновение замедлиться. FINA основана на простой идее: личные ритуалы без лишних усилий, продуманный дизайн и вещь, которую приятно держать рядом.",
+    ritualKicker:"ТВОЙ МОМЕНТ — ПО-ТВОЕМУ", ritualTitle:"Для небольшой паузы<br>место найдётся <em>везде.</em>", ritualText:"Держи любимый аромат рядом и преврати небольшой момент дня в свой собственный.", ritual1Title:"Выбери", ritual1Text:"Выбери аромат, который тебе нравится.", ritual2Title:"Подготовь", ritual2Text:"Подготовь ингалятор согласно инструкции к продукту.", ritual3Title:"Возьми с собой", ritual3Text:"Пусть он будет рядом, когда захочется знакомого аромата.", safetyNote:"Используй только согласно инструкции. Соблюдай рекомендации к продукту и указания для выбранного ароматического материала.",
+    contactEyebrow:"БУДЕМ НА СВЯЗИ", contactTitle:"Твой следующий маленький<br><em>ритуал начинается здесь.</em>", contactText:"Хочешь узнать больше о FINA или приобрести ингалятор? Напиши нам — будем рады помочь.", contactHint:"Перед публикацией добавь свою электронную почту и ссылки на социальные сети.", footerText:"Маленький ритуал — естественно.", backTop:"Наверх ↑"
+  }
+};
+function setLanguage(lang){
+  const dict=translations[lang]||translations.en;
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const key=el.dataset.i18n;
+    if(dict[key]!==undefined) el.innerHTML=dict[key];
+  });
+  document.querySelectorAll(".lang-btn").forEach(btn=>btn.classList.toggle("active",btn.dataset.lang===lang));
+  try{localStorage.setItem("fina-language",lang)}catch(e){}
+}
+document.querySelectorAll(".lang-btn").forEach(btn=>btn.addEventListener("click",()=>setLanguage(btn.dataset.lang)));
+document.getElementById("year").textContent=new Date().getFullYear();
+const menu=document.querySelector(".menu-toggle"), nav=document.querySelector(".desktop-nav");
+menu.addEventListener("click",()=>{const open=nav.classList.toggle("open");menu.setAttribute("aria-expanded",String(open));menu.textContent=open?"×":"☰"});
+nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menu.setAttribute("aria-expanded","false");menu.textContent="☰"}));
+let saved="en";try{saved=localStorage.getItem("fina-language")||"en"}catch(e){}setLanguage(saved);
