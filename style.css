@@ -218,6 +218,27 @@
   display: block;
 }
 
+/* Product photos — matching website background */
+.feature-visual {
+  background: var(--paper) !important;
+  overflow: hidden;
+}
+
+.feature-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  display: block;
+}
+
+/* Keep the same background on all three cards */
+.feature-large .feature-visual,
+.feature-card .feature-visual {
+  background: var(--paper) !important;
+}
+
+
 
 
 
