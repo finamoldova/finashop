@@ -85,5 +85,14 @@
   .contact-details a {
     font-size: 14px;
   }
+}.contact-details a {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 600px) {
+  .contact-details a {
+    font-size: 24px !important;
+  }
 }
 
