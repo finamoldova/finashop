@@ -204,5 +204,20 @@
   }
 }
 
+/* Hero image — same background as website */
+.hero-art.hero-photo {
+  background: var(--paper) !important;
+  overflow: hidden;
+}
+
+.hero-art.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  display: block;
+}
+
+
 
 
