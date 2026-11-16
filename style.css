@@ -237,6 +237,27 @@
 .feature-card .feature-visual {
   background: var(--paper) !important;
 }
+.footer-right {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-right a {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: var(--ink) !important;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  color: var(--wood) !important;
+}
+
 
 
 
